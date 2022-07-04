@@ -1,0 +1,186 @@
+#NAME_DIRECT "{}"
+!
+#PARAMETER "{}"
+@VERSION "NTControl"
+@GOOD_LABEL OFF
+@BAD_LABEL OFF
+@HEAD_LABEL OFF
+@ADD_LABEL OFF
+@PRINTER_INTERNAL OFF
+@PRINT_HEADER ON
+@PRINT_PASSED ON
+@PRINT_PARAMETERS ON
+@PRINTER_EXTERNAL OFF
+@PRINT_VALUE ON
+@KEEP_FAULTS OFF
+@PRINT_SEGMENT ON
+@PRINT_COMP_NAME OFF
+@RESULT_DOCUMENTATION_LEVEL 0
+@PIN_FORMAT DIRECT
+@MONITORING OFF
+@STOP_ON_FAULTS ON
+@RELAIS_TIME 750
+@VISUAL_LED_TEST OFF
+@ERROR_LIMIT 20
+@LOOSE_CONTACT_TEST OFF
+@PRINT_ADD_INFO ON
+@PRINT_NEW_PAGE ON
+@ABORT_ALL OFF
+@EXTERNAL_VOLTAGE_TEST OFF
+!
+#PARAMETER "{}" "Segment 1"
+:TEST_TYPE
+    CONNECTION_LOW
+    SHORT_LOW
+@RESISTANCE_LOW 250.000000
+@RESISTANCE_INSULATION 20000.000000
+@VOLTAGE_LOW 12.000000
+@TIME_LOW_VOLTAGE 0
+!
+#NET "{}" "Segment 1"
+@-"1"
+*-"Sub 1"
+"78" "80" 
+@-"2"
+*-"Sub 1"
+"88" "76" 
+@-"3"
+*-"Sub 1"
+"86" "88" 
+@-"4"
+*-"Sub 1"
+"96" "84" 
+@-"5"
+*-"Sub 1"
+"94" "74" 
+@-"6"
+*-"Sub 1"
+"104" "76" 
+@-"7"
+*-"Sub 1"
+"102" "88" 
+@-"8"
+*-"Sub 1"
+"112" "74" 
+@-"9"
+*-"Sub 1"
+"110" "86" 
+@-"10"
+*-"Sub 1"
+"120" "108" 
+@-"11"
+*-"Sub 1"
+"118" "120" 
+@-"12"
+*-"Sub 1"
+"128" "82" 
+@-"13"
+*-"Sub 1"
+"126" "128" 
+@-"14"
+*-"Sub 1"
+"204" "202" 
+@-"15"
+*-"Sub 1"
+"212" "202" 
+@-"16"
+*-"Sub 1"
+"220" "218" 
+@-"17"
+*-"Sub 1"
+"228" "230" 
+@-"18"
+*-"Sub 1"
+"236" "234" 
+@-"19"
+*-"Sub 1"
+"244" "242" 
+@-"20"
+*-"Sub 1"
+"254" "256" 
+@-"21"
+*-"Sub 1"
+"252" "250" 
+@-"22"
+*-"Sub 1"
+"264" "302" 
+@-"23"
+*-"Sub 1"
+"262" "264" 
+@-"24"
+*-"Sub 1"
+"272" "260" 
+@-"25"
+*-"Sub 1"
+"270" "272" 
+@-"26"
+*-"Sub 1"
+"280" "268" 
+@-"27"
+*-"Sub 1"
+"278" "280" 
+@-"28"
+*-"Sub 1"
+"288" "278" 
+@-"29"
+*-"Sub 1"
+"286" "288" 
+@-"30"
+*-"Sub 1"
+"296" "288" 
+@-"31"
+*-"Sub 1"
+"294" "296" 
+@-"32"
+*-"Sub 1"
+"304" "266" 
+@-"33"
+*-"Sub 1"
+"312" "302" 
+@-"34"
+*-"Sub 1"
+"320" "308" 
+@-"35"
+*-"Sub 1"
+"318" "320" 
+@-"36"
+*-"Sub 1"
+"272" "260" 
+@-"37"
+*-"Sub 1"
+"278" "264" 
+@-"38"
+*-"Sub 1"
+"286" "288" 
+@-"39"
+*-"Sub 1"
+"296" "284" 
+@-"40"
+*-"Sub 1"
+"294" "296" 
+@-"41"
+*-"Sub 1"
+"304" "272" 
+@-"42"
+*-"Sub 1"
+"302" "286" 
+@-"43"
+*-"Sub 1"
+"312" "284" 
+@-"44"
+*-"Sub 1"
+"310" "312" 
+@-"45"
+*-"Sub 1"
+"320" "308" 
+@-"46"
+*-"Sub 1"
+"318" "320" 
+@-"47"
+*-"Sub 1"
+"264" "316" 
+!
+#PARAMETER "{}"
+:DESCRIPTION ($$)
+!
+        

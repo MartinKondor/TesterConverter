@@ -1,0 +1,167 @@
+#NAME_DIRECT "222 320-01_adk"
+!
+#PARAMETER "222 320-01_adk"
+@VERSION "NTControl"
+@GOOD_LABEL OFF
+@BAD_LABEL OFF
+@HEAD_LABEL OFF
+@ADD_LABEL OFF
+@PRINTER_INTERNAL OFF
+@PRINT_HEADER ON
+@PRINT_PASSED ON
+@PRINT_PARAMETERS ON
+@PRINTER_EXTERNAL OFF
+@PRINT_VALUE ON
+@KEEP_FAULTS OFF
+@PRINT_SEGMENT ON
+@PRINT_COMP_NAME OFF
+@RESULT_DOCUMENTATION_LEVEL 0
+@PIN_FORMAT DIRECT
+@MONITORING OFF
+@STOP_ON_FAULTS ON
+@RELAIS_TIME 750
+@VISUAL_LED_TEST OFF
+@ERROR_LIMIT 20
+@LOOSE_CONTACT_TEST OFF
+@PRINT_ADD_INFO ON
+@PRINT_NEW_PAGE ON
+@ABORT_ALL OFF
+@EXTERNAL_VOLTAGE_TEST OFF
+!
+#PARAMETER "222 320-01_adk" "Segment 1"
+:TEST_TYPE
+    CONNECTION_LOW
+    SHORT_LOW
+@RESISTANCE_LOW 250.000000
+@RESISTANCE_INSULATION 20000.000000
+@VOLTAGE_LOW 12.000000
+@TIME_LOW_VOLTAGE 0
+!
+#NET "222 320-01_adk" "Segment 1"
+@-"1"
+*-"Sub 1"
+"69" "117" 
+@-"2"
+*-"Sub 1"
+"72" "109" 
+@-"3"
+*-"Sub 1"
+"71" "123" 
+@-"4"
+*-"Sub 1"
+"70" "101" "8" 
+@-"5"
+*-"Sub 1"
+"65" "66" 
+@-"6"
+*-"Sub 1"
+"67" "121" 
+@-"7"
+*-"Sub 1"
+"68" "85" "6" 
+@-"8"
+*-"Sub 1"
+"77" "92" 
+@-"9"
+*-"Sub 1"
+"80" "110" 
+@-"10"
+*-"Sub 1"
+"79" "90" 
+@-"11"
+*-"Sub 1"
+"78" "103" 
+@-"12"
+*-"Sub 1"
+"73" "119" 
+@-"13"
+*-"Sub 1"
+"75" "94" 
+@-"14"
+*-"Sub 1"
+"74" "97" "34" "44" 
+@-"15"
+*-"Sub 1"
+"76" "112" "14" 
+@-"16"
+*-"Sub 1"
+"88" "81" 
+@-"17"
+*-"Sub 1"
+"87" "82" 
+@-"18"
+*-"Sub 1"
+"86" "104" "111" "118" "32" "42" "54" 
+@-"19"
+*-"Sub 1"
+"83" "58" 
+@-"20"
+*-"Sub 1"
+"84" "106" 
+@-"21"
+*-"Sub 1"
+"93" "36" 
+@-"22"
+*-"Sub 1"
+"95" "46" 
+@-"23"
+*-"Sub 1"
+"89" "48" 
+@-"24"
+*-"Sub 1"
+"91" "38" 
+@-"25"
+*-"Sub 1"
+"102" "100" 
+@-"26"
+*-"Sub 1"
+"99" "60" 
+@-"27"
+*-"Sub 1"
+"105" "50" 
+@-"28"
+*-"Sub 1"
+"107" "40" 
+@-"29"
+*-"Sub 1"
+"120" "18" 
+@-"30"
+*-"Sub 1"
+"113" "115" 
+@-"31"
+*-"Sub 1"
+"116" "16" 
+@-"32"
+*-"Sub 1"
+"128" "127" 
+@-"33"
+*-"Sub 1"
+"126" "4" 
+@-"34"
+*-"Sub 1"
+"124" "2" 
+@-"35"
+*-"Sub 1"
+"5" "7" "1" "3" "13" "15" "9" "11" "21" "23" "17" 
+@-"36"
+*-"Sub 1"
+"10" "28" 
+@-"37"
+*-"Sub 1"
+"12" "30" 
+@-"38"
+*-"Sub 1"
+"24" "26" 
+@-"39"
+*-"Sub 1"
+"22" "56" 
+@-"40"
+*-"Sub 1"
+"20" "52" 
+@-"41"
+*-"Sub 1"
+"64" "63" 
+!
+#PARAMETER "222 320-01_adk"
+:DESCRIPTION ($$)
+!
