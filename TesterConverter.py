@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # pyinstaller --noconsole __main__.py
+import enum
 from os import getcwd
 
 import json

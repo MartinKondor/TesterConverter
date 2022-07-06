@@ -75,7 +75,7 @@ def create_pairs(numbers, nth=0):
         l = [k] + collector[k]
         l = sorted(l, reverse=True)
         result[l[0]] = l[1:]
-
+        
     return result
 
     dictionary = build_dict()
