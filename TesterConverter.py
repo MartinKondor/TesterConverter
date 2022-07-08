@@ -11,6 +11,10 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename, askopenfilena
 
 from tester import *
 
+# Kérdezze meg hogy hány teszt pont jut a fájlokra,
+# és ellenőrizze le hogy van e nagyobb szám a konvertálás után mint (teszt pont)*64
+# "Max. tesztpontok száma?"
+# "Elvárt teszt pontok száma kevesebb mint a beállított"
 
 """
 Create importable file from the converted data.
@@ -189,12 +193,17 @@ class TesterConverter(Tk):
                     continue
             
                 nums = [table[i][0], [table[k][0] for k in new_pairs[i]]][::-1]
+                #nums = self._change_nums(nums)
                 pairs.append(nums)
 
             converted_data.extend(pairs)
 
         self.create_ktx(converted_data)
         return 0
+
+    def _change_nums(self, nums):
+        new_nums = nums
+        return new_nums
 
     def create_ktx(self, content):
         filename = asksaveasfilename(initialdir=self.last_save_dir, filetypes=[('Adaptronic ktx fájl', '.ktx')], defaultextension='.ktx')
