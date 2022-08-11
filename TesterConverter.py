@@ -65,9 +65,36 @@ def create_importable_file(converted_data):
     one_row_str = '@-"{}"\n*-"Sub 1"\n'
     
     def create_type(index):
+        
+        def rotate_if(_p):
+            if len(_p) != 2:
+                return False
+            
+            p = [_p[0], _p[1]]
+            p[0] = p[0][0]
+
+            pp1 = ["65", "193", "321", "449"]
+            pp2 = ["66", "194", "322", "450"]
+            if (p[0].strip().replace('"', "") in pp1) and (p[1].strip().replace('"', "") in pp2):
+                return True
+            if (p[1].strip().replace('"', "") in pp1) and (p[0].strip().replace('"', "") in pp2):
+                return True
+            return False
+
         result = basic_header
         
         for i, row in enumerate(converted_data):
+            if rotate_if(row):
+                p0 = row[0]
+                p1 = row[1]
+                
+                if isinstance(p0, list) and not isinstance(p1, list):
+                    row = [[p1], *p0]
+                elif isinstance(p0, list) and isinstance(p1, list):
+                    row = [[*p1], *p0]
+                else:
+                    row = [[p1], p0]
+
             result += one_row_str.format(str(int(i) + 1))
 
             for r in row:

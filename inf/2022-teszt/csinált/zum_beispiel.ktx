@@ -1,0 +1,138 @@
+#NAME_DIRECT "zum_beispiel"
+!
+#PARAMETER "zum_beispiel"
+@VERSION "NTControl"
+@GOOD_LABEL OFF
+@BAD_LABEL OFF
+@HEAD_LABEL OFF
+@ADD_LABEL OFF
+@PRINTER_INTERNAL OFF
+@PRINT_HEADER ON
+@PRINT_PASSED ON
+@PRINT_PARAMETERS ON
+@PRINTER_EXTERNAL OFF
+@PRINT_VALUE ON
+@KEEP_FAULTS OFF
+@PRINT_SEGMENT ON
+@PRINT_COMP_NAME OFF
+@RESULT_DOCUMENTATION_LEVEL 0
+@PIN_FORMAT DIRECT
+@MONITORING OFF
+@STOP_ON_FAULTS ON
+@RELAIS_TIME 750
+@VISUAL_LED_TEST OFF
+@ERROR_LIMIT 20
+@LOOSE_CONTACT_TEST OFF
+@PRINT_ADD_INFO ON
+@PRINT_NEW_PAGE ON
+@ABORT_ALL OFF
+@EXTERNAL_VOLTAGE_TEST OFF
+!
+#PARAMETER "zum_beispiel" "Segment 1"
+:TEST_TYPE
+    CONNECTION_LOW
+    SHORT_LOW
+@RESISTANCE_LOW 250.000000
+@RESISTANCE_INSULATION 20000.000000
+@VOLTAGE_LOW 12.000000
+@TIME_LOW_VOLTAGE 0
+!
+#NET "zum_beispiel" "Segment 1"
+@-"1"
+*-"Sub 1"
+"69" "98" 
+@-"2"
+*-"Sub 1"
+"72" "111" 
+@-"3"
+*-"Sub 1"
+"71" "82" 
+@-"4"
+*-"Sub 1"
+"70" "107" 
+@-"5"
+*-"Sub 1"
+"66" "65" 
+@-"6"
+*-"Sub 1"
+"67" "118" 
+@-"7"
+*-"Sub 1"
+"68" "109" 
+@-"8"
+*-"Sub 1"
+"77" "106" 
+@-"9"
+*-"Sub 1"
+"80" "93" 
+@-"10"
+*-"Sub 1"
+"79" "92" 
+@-"11"
+*-"Sub 1"
+"78" "73" 
+@-"12"
+*-"Sub 1"
+"75" "110" 
+@-"13"
+*-"Sub 1"
+"74" "89" 
+@-"14"
+*-"Sub 1"
+"76" "95" 
+@-"15"
+*-"Sub 1"
+"85" "84" 
+@-"16"
+*-"Sub 1"
+"88" "87" 
+@-"17"
+*-"Sub 1"
+"86" "83" 
+@-"18"
+*-"Sub 1"
+"81" "102" 
+@-"19"
+*-"Sub 1"
+"96" "105" 
+@-"20"
+*-"Sub 1"
+"94" "126" 
+@-"21"
+*-"Sub 1"
+"91" "116" 
+@-"22"
+*-"Sub 1"
+"90" "113" 
+@-"23"
+*-"Sub 1"
+"101" "108" 
+@-"24"
+*-"Sub 1"
+"104" "103" 
+@-"25"
+*-"Sub 1"
+"97" "114" 
+@-"26"
+*-"Sub 1"
+"99" "112" 
+@-"27"
+*-"Sub 1"
+"100" "124" 
+@-"28"
+*-"Sub 1"
+"117" "115" 
+@-"29"
+*-"Sub 1"
+"120" "122" 
+@-"30"
+*-"Sub 1"
+"119" "121" 
+@-"31"
+*-"Sub 1"
+"128" "127" 
+!
+#PARAMETER "zum_beispiel"
+:DESCRIPTION ($$)
+!
+        
